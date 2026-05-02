@@ -7,7 +7,7 @@
 
 // ==========================================================
 // TORRE — Firmware da Grande Base
-// Projeto: GAME — Comunidade de Inclusão Digital
+// Projeto: Comunidade Game - Inclusão Digital
 //
 // Hardware: NodeMCU ESP8266 v2
 //           Fita WS2812B IP67 (30 LEDs em círculo)
@@ -28,11 +28,11 @@
 // ==========================================================
 
 void setup() {
-  Serial.begin(115200);
+  Serial.begin(9600);
   Serial.println();
   Serial.println("==============================================");
   Serial.println("   TORRE — A Grande Base          v1.0");
-  Serial.println("   Natural Tecnologia / GAME");
+  Serial.println("   Comunidade Game - Inclusão Digital");
   Serial.println("==============================================");
 
   leds_iniciar();       // prepara a fita WS2812B de 30 LEDs
